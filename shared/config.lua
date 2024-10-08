@@ -1,7 +1,6 @@
 Config = {}
 
 Config.Debug = true  -- Enable or disable debug mode (prints to console)
-
 Config.EnableBlip = true  -- Enable or disable the blip on the map
 
 -- Framework Selection --
@@ -66,7 +65,7 @@ Config.WeedPlants = {
     { coords = vector3(1123.54, -980.14, 45.41), weedType = 'sativa' }, -- Fourth plant: Sativa Weed
 }
 
--- Notification Config --
+-- DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING --
 Config.Notify = function(msg, status)
     lib.notify({
         description = msg,

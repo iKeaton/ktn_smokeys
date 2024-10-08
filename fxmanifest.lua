@@ -35,5 +35,6 @@ escrow_ignore {
   'server/weedrolling.lua',
   'html/index.html',
   'html/style.css',
-  'html/script.js',
+  'html/*.js',
+  'assets/*.png',
 }
