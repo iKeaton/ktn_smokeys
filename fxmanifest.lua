@@ -3,6 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'Keaton'
+version '0.0.1'
 description 'Smokeys Weed Shop'
 
 client_scripts {
@@ -30,6 +31,8 @@ files {
 
 escrow_ignore {
   'shared/*.lua',
+  'client/weedrolling.lua',
+  'server/weedrolling.lua',
   'html/index.html',
   'html/style.css',
   'html/script.js',
